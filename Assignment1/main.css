@@ -1,0 +1,102 @@
+body{
+  background-color: rgb(236, 241, 246);
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+#mainWindow{
+    margin:auto;
+    padding:1rem;
+}
+.square-box{
+  background-color: lightblue;
+  margin:1rem;
+  padding:0.7rem;
+  width: 12rem;
+  height: 10rem;
+  box-shadow: 4px 4px 7px gray;
+  border-radius: 3px;
+  position: relative;
+}
+
+.rectangle-box{
+  background-color: lightcyan;
+  margin:1rem;
+  padding:0.7rem;
+  width: 60%;
+  box-shadow: 4px 4px 7px gray;
+  border-radius: 3px;
+}
+#laptop-pic{
+  float:left;
+  padding-right: 3rem;
+}
+#laptop-info{
+  text-align: justify;
+}
+div.laptop-info > div {
+  line-height:1.5;
+}
+#laptop-price{
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+button{
+  background-color: lightsalmon;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#pay-loan-button{
+  background-color: aquamarine;
+  color:black;
+}
+#bank-button{
+  background-color: rgb(142, 255, 127);
+  color:black;
+  float:left;
+}
+#work-button{
+  background-color: rgb(127, 214, 255);
+  color:black;
+  float:left;
+  
+  
+}
+#loan-button{
+  position:absolute;
+  bottom:1rem;
+  background-color: rgb(247, 107, 107);
+  color:black;
+  width:87%;
+}
+#buy-laptop-button{
+  color:black;
+  width:100%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#title{
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+#bank-balance{
+
+  padding-top:1.4rem;
+}
+
