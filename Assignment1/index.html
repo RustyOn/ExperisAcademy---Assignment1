@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8"/>
+      <meta name="description" content="Test website"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" href="main.css">
+      <title>Assignment 1</title>
+    </head>
+    <body>
+      <div class="flexContainer" id="mainWindow">
+        <div class="square-box">
+          <div id="title"> Bebbas Galousch</div>
+          <div id="bank-balance"> 10sek </div>
+          <div id="loan-balance"> 10sek </div>
+          <button type="button" id="loan-button">Get a loan</button>
+        </div>
+
+        <div class="square-box">
+          <div id="title"> Work</div>
+          <div> Pay </div>
+          <div id="work-balance"></div>
+          <button type="button" id="work-button">Work</button>
+          <button type="button" id="bank-button">Bank</button>
+          <button type="button" id="pay-loan-button">Repay Loan</button>
+        </div>
+
+        <div class="square-box">
+          <select id="laptop-select"></select>
+          <div id="laptop-desc"></div>    
+        </div>
+
+        <div class="rectangle-box">
+          <h2 id="laptop-name"></h2>
+          <img width="220px" height="220px" id="laptop-pic" 
+            src="" onerror="this.src='404.jpg'"></img>
+          <div class="laptop-info">
+            <div id="laptop-specs"></div>
+            <div id="laptop-price"></div>
+          </div>
+          <button type="button" id="buy-laptop-button">Buy Laptop</button>    
+        </div>
+      </div>
+      <script src="index.js"></script>
+    </body>
+</html>
