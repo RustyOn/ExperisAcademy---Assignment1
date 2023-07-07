@@ -50,9 +50,9 @@ div.laptop-info > div {
 }
 
 button{
-  background-color: lightsalmon;
+  background-color: black;
   border: none;
-  color: white;
+  color:black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -60,35 +60,49 @@ button{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  font-weight: bold;
 }
+button:active{
+  transform:scale(0.85);
+}
+
 #pay-loan-button{
   background-color: aquamarine;
-  color:black;
+  width:90%;
 }
 #bank-button{
   background-color: rgb(142, 255, 127);
-  color:black;
   float:left;
+  padding:10px 26px;
+  margin:0px;
 }
 #work-button{
   background-color: rgb(127, 214, 255);
-  color:black;
   float:left;
-  
-  
+  padding:10px 26px;
+  margin:0px;
 }
 #loan-button{
   position:absolute;
   bottom:1rem;
   background-color: rgb(247, 107, 107);
-  color:black;
   width:87%;
+  font-size: 1.2rem;
 }
 #buy-laptop-button{
-  color:black;
+  
+  border-color:#3498db;
+  color: #000000;
   width:100%;
   font-weight: bold;
   font-size: 1.5rem;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color:white;
+  }
 }
 #title{
   font-size: 1.3rem;
@@ -96,7 +110,6 @@ button{
   text-align: center;
 }
 #bank-balance{
-
   padding-top:1.4rem;
 }
 
