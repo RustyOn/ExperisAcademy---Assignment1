@@ -1,5 +1,3 @@
-# ExperisAcademy---Assignment1
-
 ## **LAPTOP SHOP** - JS practice assignment
 
 ### Description 
@@ -30,5 +28,5 @@ Visual Studio Code + Live Server extension
 
 ### Authors
 
-David Petersen 
+David Petersen :upside_down_face:
 
