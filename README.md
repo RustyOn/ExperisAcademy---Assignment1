@@ -1,4 +1,5 @@
 ## **LAPTOP SHOP** - JS practice assignment
+[Hosted at Vercel](experis-academy.vercel.app)
 
 ### Description 
 This project was created as part of an Accelerated Learning course at Noroff. 
